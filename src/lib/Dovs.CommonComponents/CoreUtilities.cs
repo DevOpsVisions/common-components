@@ -2,9 +2,10 @@
 {
     public class CoreUtilities
     {
-        public static string GetWelcomeMessage(string appName)
+        public static string CreateWelcomeMessage (string appName)
         {
             // ASCII art logo and welcome message
+            // Source: https://patorjk.com/software/taag/#p=display&v=0&f=Standard&t=DevOps%20Visions
             string welcomeMessage = @"
   ____              ___             __     ___     _                 
  |  _ \  _____   __/ _ \ _ __  ___  \ \   / (_)___(_) ___  _ __  ___ 
